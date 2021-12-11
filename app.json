@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "sounds_expo",
+    "slug": "sounds_expo",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "sounds_expo"
+}
