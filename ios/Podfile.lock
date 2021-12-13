@@ -333,6 +333,11 @@ PODS:
   - RNScreens (3.8.0):
     - React-Core
     - React-RCTImage
+  - RNSound (0.11.1):
+    - React-Core
+    - RNSound/Core (= 0.11.1)
+  - RNSound/Core (0.11.1):
+    - React-Core
   - Yoga (1.14.0)
 
 DEPENDENCIES:
@@ -383,6 +388,7 @@ DEPENDENCIES:
   - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
   - RNReanimated (from `../node_modules/react-native-reanimated`)
   - RNScreens (from `../node_modules/react-native-screens`)
+  - RNSound (from `../node_modules/react-native-sound`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -480,6 +486,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-reanimated"
   RNScreens:
     :path: "../node_modules/react-native-screens"
+  RNSound:
+    :path: "../node_modules/react-native-sound"
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -501,7 +509,7 @@ SPEC CHECKSUMS:
   EXUpdates: 061b67c33f0e7f8fd335bbb48697c4a4fc8a5157
   EXUpdatesInterface: e1c01b4f5ec76bd1d6cc714938f9edf5ef6379b9
   FBLazyVector: c71c5917ec0ad2de41d5d06a5855f6d5eda06971
-  FBReactNativeSpec: 8e5e345e60112cde5c0f41efa258b3c13efba478
+  FBReactNativeSpec: 2b4070c4117b8b2566c398154daff339d53cb253
   glog: 73c2498ac6884b13ede40eda8228cb1eee9d9d62
   RCT-Folly: ec7a233ccc97cc556cf7237f0db1ff65b986f27c
   RCTRequired: d34bf57e17cb6e3b2681f4809b13843c021feb6c
@@ -530,6 +538,7 @@ SPEC CHECKSUMS:
   RNGestureHandler: a479ebd5ed4221a810967000735517df0d2db211
   RNReanimated: 024eff8202342abf4b24e11575a16afc441dabfe
   RNScreens: 6e1ea5787989f92b0671049b808aef64fa1ef98c
+  RNSound: 27e8268bdb0a1f191f219a33267f7e0445e8d62f
   Yoga: e6ecf3fa25af9d4c87e94ad7d5d292eedef49749
 
 PODFILE CHECKSUM: 43410351a071c95ecdc08aff8379deca9ac3c9cc
