@@ -32,7 +32,7 @@ export default class App extends Component {
           
           <View style={styles.container}>
             <Button
-              title="imma buttin git-test'"
+              title="imma buttin git-test yay'"
               color="#3CBBB1"
               onPress={this.playSound.bind(this)} />
           </View>
